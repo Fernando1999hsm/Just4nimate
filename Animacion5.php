@@ -1,5 +1,5 @@
 <?php include("header.html"); ?>
-
+<link rel="stylesheet" href="./styles.css">
 <body>
     
     <!-- Image and text -->
@@ -28,13 +28,15 @@
   </nav>
 
   <center>
-<br>
-<br>
-<br>
-<h1> <b>Animacion #5</b></h1>
-<br>
-<button class="boton5"></button>
-</div>
+  <div id="atomo">
+  <div id="nucleo"></div>
+  <div class="electron"></div>
+  <div class="electron"></div>
+  <div class="electron"></div>
+  <div class="electron"></div>
+  <div class="electron"></div>
+  <div class="electron"></div>
+  <div class="electron"></div>
 </div>
 </center>
 

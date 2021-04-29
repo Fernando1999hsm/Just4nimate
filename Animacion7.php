@@ -1,5 +1,5 @@
 <?php include("header.html"); ?>
-
+<link rel="stylesheet" href="./last.css">
 <body>
     
     <!-- Image and text -->
@@ -7,7 +7,7 @@
     <div class="container-fluid">
       <a class="navbar-brand" href="index.php">
          <img
-             src="https://lh3.googleusercontent.com/proxy/K9f01KhimvmBFMi1kmnL0sQCkUgHMsGfrbL5G_uQQ0DnZTTunzZJKYSFyrBCuiTuU_b0vEeBOlsmNPb-Qwhc1yF2WQ"
+             src="./excudo.png"
              height="60"
              alt=""
              loading="lazy"
@@ -24,19 +24,38 @@
       <div><a href="Animacion8.php">Animacion #8</a></div>
       <div><a href="Animacion9.php">Animacion #9</a></div>
       <div><a href="Animacion10.php">Animacion #10</a></div>
-      <div><font color="white" >Interaccion Humano Computadora</font></div>
     </div>
   </nav>
 
   <center>
-<br>
-<br>
-<br>
-<h1> <b>Animacion #7</b></h1>
-<br>
-<button class="boton7"></button>
-</div>
-</div>
+  <title>MovimientoGSAP</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+</head>
+
+<body>
+ <div id="botones">
+    <input type="button" id="play_one" value="one" hidden>
+    <input type="button" id="play_two" value="two" hidden>
+    <input type="button" id="play_three" value="three" hidden>
+    <input type="button" id="play_four" value="four" hidden>
+    <input type="button" id="play_five" value="Aparecen">
+  </div>
+
+    <div id="circulos">
+      <div class="circulo" id="botonRojo" ></div>
+      <div class="circulo" id="botonNaranja"></div>
+      <div class="circulo" id="botonAmarillo"></div>
+      <div class="circulo" id="botonVerde"></div>
+      <div class="circulo" id="botonTurquesa"></div>
+      <div class="circulo" id="botonAzul"></div>
+      <div class="circulo" id="botonGris"></div>
+    </div>
+
+
 </center>
 
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.1/TweenMax.min.js'></script>
+<script  src="./lats.js"></script>
 <?php include("footer.html"); ?>

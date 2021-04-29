@@ -77,3 +77,4 @@ document.addEventListener('touchmove', (ev) => {
 
 document.addEventListener('mouseup', onMouseUp);
 document.addEventListener('touchend', onMouseUp);
+

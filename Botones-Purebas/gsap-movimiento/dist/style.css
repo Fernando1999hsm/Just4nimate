@@ -1,0 +1,38 @@
+html, body {
+  height: 100%;
+}
+body {
+  background-color: #E6E6E6;
+}
+
+#botones{
+  width: 40em;
+  height: 3%;
+  padding-top:3em;
+  padding-left: 6em;
+
+
+}
+input{
+  font-size: 1em; /* Let's say this computes to 16px */
+  padding: 0.625em 1em; /* 0.1875 * 16 = 10px */
+  border-radius: 0.1875em; /* 0.1875 * 16 = 3px */
+}
+  
+#circulos{
+  width: 40em;
+  height: 30em;
+  padding-top:7em;
+  padding-left: 5em;
+
+}
+.circulo{
+  width: 2em;
+  height: 2em;
+   -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background-color: #848484;
+  margin:0.5em;
+  display: inline-block;
+}
