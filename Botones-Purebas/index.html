@@ -2,17 +2,31 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - React + Animejs Rocket Form UI</title>
+  <title>CodePen - A Pen by YOOJIN</title>
   <link rel="stylesheet" href="./style.css">
 
 </head>
 <body>
-<!-- partial:index.partial.html -->
-<div id="root" />
+
+  <div class="body1">
+    <div class="coordinates">
+      <div>X:<span class="posX">95</span></div>
+      <div>Y:<span class="posY">80</span></div>
+    </div>
+  
+    <svg class="svg4" width="250" height="160" viewBox="0 0 190 160" xmlns="http://www.w3.org/2000/svg">
+      <path d="M 10 80 Q 95 80 180 80" stroke="blue"  id="curve" />
+  
+      <circle cx="10" cy="80" r="2" fill="white" id="start-point" />
+      <circle cx="180" cy="80" r="2" fill="white" id="end-point" />
+      <circle cx="95" cy="80" r="5" fill="gray" id="control-point" />
+    </svg>
+  </div>
+
 <!-- partial -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/react/16.13.0/umd/react.production.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.13.0/umd/react-dom.production.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/animejs/3.1.0/anime.min.js'></script><script  src="./script.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js'></script><script  src="./script.js"></script>
 
 </body>
 </html>

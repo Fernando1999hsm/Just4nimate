@@ -7,7 +7,7 @@
     <div class="container-fluid">
       <a class="navbar-brand" href="index.php">
          <img
-             src="https://lh3.googleusercontent.com/proxy/K9f01KhimvmBFMi1kmnL0sQCkUgHMsGfrbL5G_uQQ0DnZTTunzZJKYSFyrBCuiTuU_b0vEeBOlsmNPb-Qwhc1yF2WQ"
+             src="./excudo.png"
              height="60"
              alt=""
              loading="lazy"
@@ -24,7 +24,6 @@
       <div><a href="Animacion8.php">Animacion #8</a></div>
       <div><a href="Animacion9.php">Animacion #9</a></div>
       <div><a href="Animacion10.php">Animacion #10</a></div>
-      <div><font color="white" >Interaccion Humano Computadora</font></div>
     </div>
   </nav>
 

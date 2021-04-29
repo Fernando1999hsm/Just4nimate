@@ -1,5 +1,5 @@
 <?php include("header.html"); ?>
-
+<link rel="stylesheet" href="./style.css">
 <body>
 <link href="https://fonts.googleapis.com/css?family=Poppins:600" rel="stylesheet">
     
@@ -8,7 +8,7 @@
     <div class="container-fluid">
       <a class="navbar-brand" href="index.php">
          <img
-             src="https://lh3.googleusercontent.com/proxy/K9f01KhimvmBFMi1kmnL0sQCkUgHMsGfrbL5G_uQQ0DnZTTunzZJKYSFyrBCuiTuU_b0vEeBOlsmNPb-Qwhc1yF2WQ"
+             src="./excudo.png"
              height="60"
              alt=""
              loading="lazy"
